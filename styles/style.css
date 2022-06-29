@@ -1,3 +1,12 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: white;
     margin-left: 80px;
@@ -41,4 +50,65 @@ ul {
 }
 li {
     margin: 0 25px;
+}
+
+#hero{
+    margin: 110px 110px;
+    height: 70vh;
+}
+
+#hero h1{
+    justify-content: left;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    font-size: 80px;
+    color: rgb(109, 109, 109);
+}
+
+
+#hero button{
+    display: inline-flex;
+    color: rgb(109, 109, 109);
+    background:white ;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 6px 15px 6px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.texto{
+    color: rgb(139, 139, 139);
+    justify-content: left;
+    align-items: left;
+    margin-right: 500px;
+    font-size: 30px;
+}
+
+.botonsito{
+    font-size: 20px;
+}
+
+#hero button:hover{
+    color: white;
+    background-color: rgb(109, 109, 109);
+}
+
+#hero{
+    background-image: url("/img/descarga.jfif");
+    background-repeat: no-repeat;
+    background-size: 500px 410px;
+    background-position: right;
+}
+
+#info{
+    justify-content: center;
+    text-align: center;
+    margin: 50px 250px;
+    font-size: 30px;
 }
