@@ -50,6 +50,7 @@ ul {
 }
 li {
     margin: 0 25px;
+    color: rgb(139, 139, 139);
 }
 
 #hero{
@@ -82,6 +83,7 @@ li {
     font-size: 30px;
 }
 
+
 .texto{
     color: rgb(139, 139, 139);
     justify-content: left;
@@ -97,6 +99,7 @@ li {
 #hero button:hover{
     color: white;
     background-color: rgb(109, 109, 109);
+    transition: .4s;
 }
 
 #hero{
@@ -111,4 +114,13 @@ li {
     text-align: center;
     margin: 50px 250px;
     font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li:hover{
+    color: rgb(77, 77, 77);
+    transition: .4s;
 }
