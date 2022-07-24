@@ -44,7 +44,7 @@ nav ul {
 }
 li {
     margin: 0 25px;
-    color: rgb(139, 139, 139);
+    color: #F7F3E3;
 }
 
 #hero{
@@ -61,7 +61,7 @@ li {
     text-decoration: none;
     align-items: center;
     font-size: 80px;
-    color: rgb(109, 109, 109);
+    color: #6F1A07;
 }
 
 
@@ -163,12 +163,18 @@ footer ul{
     margin: 0;
 }
 
-footer #main{
+footer #contacto{
     background-color: white;
     background-color: #F7F3E3;
     border-color: gainsboro;
     border-width: 1px;
     border-style: solid;
+}
+
+.perfil{
+    width: 180px;
+    height: 200px;
+    margin-left: 80px;
 }
 
 footer .text___container2{
@@ -191,3 +197,23 @@ footer .text___container2{
     width: 100px;
 }
 
+.iconoss{
+    width: 25px;
+    height: 25px;
+}
+
+p{
+    color: #6F1A07;
+}
+
+h1{
+    color: #6F1A07;
+}
+
+h2{
+    color: #6F1A07;
+}
+
+#contacto ul li{
+    color: #6F1A07;
+}
