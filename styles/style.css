@@ -7,43 +7,28 @@ html{
     scroll-behavior: smooth;
 }
 
-header {
-    background-color: #6F1A07;
-    border-color: gainsboro;
-    border-width: 1px;
-    border-style: solid;
-}
-
 nav {
-    border-color: gainsboro;
-    border-width: 1px;
-    border-style: solid;
+    display: flex;
+    height: 60px;
+    position: fixed;
+    background-color: #6F1A07;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
 }
 
 body {
     background-color: #ECF0F1;
 }
 
-
-.logo {
-    margin-left: 100px;
-    margin-top: 10px;
-    height: 90px;
-}
-
-
 nav ul {
-    color: black;
     list-style: none;
     display: flex;
-    margin-right: 120px;
-    font-size: 22px;
-    font-family: 'Bona Nova', serif;
-    float: right;
-    margin-top: 45px;
+    font-size: 20px;
 }
 li {
-    margin: 0 25px;
+    margin: 0 28px;
     color: #F7F3E3;
 }
 
@@ -60,7 +45,7 @@ li {
     font-weight: bold;
     text-decoration: none;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     color: #6F1A07;
 }
 
@@ -68,7 +53,7 @@ li {
 #hero button{
     display: inline-flex;
     color: rgb(109, 109, 109);
-    background:white;
+    background:#F7F3E3;
     cursor: pointer;
     border: 2px solid;
     border-radius: 30px;
@@ -76,24 +61,21 @@ li {
     margin: 0 5px;
     text-decoration: none;
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 
 .texto{
-    color: rgb(139, 139, 139);
+    color: rgb(95, 93, 93);
     justify-content: left;
     align-items: left;
-    font-size: 30px;
+    font-size: 50px;
 }
 
-.botonsito{
-    font-size: 20px;
-}
 
 #hero button:hover{
     color: white;
-    background-color: rgb(109, 109, 109);
+    background-color: #6F1A07;
     transition: .4s;
 }
 
@@ -102,20 +84,17 @@ a{
 }
 
 li:hover{
-    color: rgb(77, 77, 77);
+    color: rgba(0, 0, 0, 0.973);
     transition: .4s;
 }
 
 #hero .fotito{
     border-color: #6F1A07;
-    border-width: 3px;
+    border-width: 1px;
     border-style: solid;
 }
 
 .ventajas___container{
-    width: auto;
-    height: auto;
-    background-color: #F7F3E3;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -123,9 +102,9 @@ li:hover{
 
 .ventajas___container .ventaja{
     width: 420px;
-    height: 350px;
+    height: auto;
     background-color: #ECF0F1;
-    margin: 60px;
+    margin: 50px;
 }
 
 .text___container{
@@ -133,27 +112,24 @@ li:hover{
     font-size: 20px;
     margin-left: 150px;
     margin-right: 150px;
+    padding-top: 10px;
 }
 
 .text___container h1{
     font-size: 50px;
 }
 
-.ventajas___container{
-    border-color: gainsboro;
-    border-width: 1px;
-    border-style: solid;
-}
 
 .ventaja{
     text-align: center;
-    border-color: gainsboro;
-    border-width: 1px;
-    border-style: solid;
 }
 
 .ventaja img{
     height: 115px;
+}
+
+.footer{
+    padding-top: 80px;
 }
 
 footer ul{
@@ -164,11 +140,7 @@ footer ul{
 }
 
 footer #contacto{
-    background-color: white;
     background-color: #F7F3E3;
-    border-color: gainsboro;
-    border-width: 1px;
-    border-style: solid;
 }
 
 .perfil{
@@ -176,6 +148,7 @@ footer #contacto{
     height: 200px;
     margin-left: 80px;
 }
+
 
 footer .text___container2{
     margin-left: 60px;
@@ -187,9 +160,6 @@ footer .text___container2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-color: gainsboro;
-    border-width: 1px;
-    border-style: solid;
 }
 
 .copy img{
@@ -207,6 +177,12 @@ p{
     color: #6F1A07;
 }
 
+.icono{
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
 h1{
     color: #6F1A07;
 }
@@ -218,3 +194,4 @@ h2{
 #contacto ul li{
     color: #6F1A07;
 }
+
